@@ -1,0 +1,32 @@
+{
+    "name": "morgriem/dancer",
+    "description": "Experimental DTO from Entity generator.",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gleb Nevzorov",
+            "email": "gnevzorov@yandex.ru"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Morgriem\\Dancer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Morgriem\\Dancer\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
